@@ -1,4 +1,4 @@
-###--- REQUIREMENTS ---
+### --- REQUIREMENTS ---
 Create a zodiacSectionLN.py file.  This file will contain your solutions to the requirements below:
 
 a. Ask the user to enter a year of birth.  The baseline year 1900.
@@ -32,7 +32,7 @@ Your Chinese Zodiac Sign is: Dragon (龙 / Lóng)
 
 Test and Run your code before submitting.
 
-###--- CODE ---
+### --- CODE ---
 def zodiac(year):
     zodiacs = [
         "Rat (鼠 / Shǔ)",
