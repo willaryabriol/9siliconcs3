@@ -17,6 +17,7 @@ The school canteen is small, and the system is inefficient during lunch break du
 
 ## Step 3: Apply Computational Thinking Skills
 
+
 ## Step 4: Algorithmic Solution
 
 ### Selected Sub-Problem
