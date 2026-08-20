@@ -22,17 +22,17 @@ The school canteen is small, and the system is inefficient during lunch break du
 
 ### Sub-Problem: The cashier has to manually count the bills and change.
 
-#START
-    #Input ITEMS (this will be a list)
-    #Input CASH
-    #Set COST = 0
-    #For ITEM in ITEMS:
-        #COST += PRICE
-    #Print "Total Amount: ", COST
+    #START
+        #Input ITEMS (this will be a list)
+        #Input CASH
+        #Set COST = 0
+        #For ITEM in ITEMS:
+            #COST += PRICE
+        #Print "Total Amount: ", COST
 
-    #If CASH < COST:
-        #Print "Not enough cash."
-    #Else:
-        #CHANGE = CASH - COST
-        #Print "Change: ", CHANGE
-#END
+        #If CASH < COST:
+            #Print "Not enough cash."
+        #Else:
+            #CHANGE = CASH - COST
+            #Print "Change: ", CHANGE
+    #END
