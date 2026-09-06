@@ -1,2 +1,2 @@
-Willary A. Abriol
-9 Silicon
+Name: Willary A. Abriol
+Grade and Section: 9 Silicon
