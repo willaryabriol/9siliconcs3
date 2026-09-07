@@ -1,4 +1,4 @@
-[Link to CT Skills](quarter1/ctskillsSiliconAbriol.md)
+[Link to CT Skills]([quarter1/ctskillsSiliconAbriol.md](https://github.com/willaryabriol/9siliconcs3/blob/main/quarter1/ctskillsSiliconAbriol.md))
 
 [Link to Chinese Zodiac](quarter1/zodiacSiliconAbriol.md)
 
