@@ -18,7 +18,7 @@
 | updateDeparment(dept: string) | updates employee's department |
 
 ## Class Diagram
-![UML Class Diagram](UML-Class-Diagram.png)
+![UML Class Diagram](images/UML-Class-Diagram.png)
 
 ## Design Explanation
 ### Why did you choose this class?
@@ -29,3 +29,6 @@ I think the most important attribute would be the salary of the employee. An emp
 
 ### Which method is the most useful? Why?
 I think the most useful method would be the displayInfo(). I think this method is also useful for other classes. When a user makes use of a class in a program, the tendency is, they will use the displayInfo() method a lot, especially after updating the attributes of the class.
+
+## Design Revision
+No major changes were needed from my original design.
