@@ -35,5 +35,8 @@ Explanation:
 ### What multiplicity did you choose and why?
 - I chose a multiplicity of one or more and a relationship of one-to-many. I wanted my supervisor class to be able to be assigned to multiple employees. However, I only want each employee to have only one supervisor.
 ### How did you implement the relationship in Python?
+- I allowed each supervisor to have multiple employee classes to "supervise".
 ### Why did you store an object reference instead of copying its data?
+- 
 ### If your relationship uses many, why is a list appropriate?
+- 
