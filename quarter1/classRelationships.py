@@ -14,6 +14,9 @@ class Employee:
     def updateDepartment(self, dept):
         self.__department = dept
 
+    def __str__(self):
+        return self.name
+
 class Supervisor:
     def __init__(self, name):
         self.name = name
