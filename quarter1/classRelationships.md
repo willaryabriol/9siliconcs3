@@ -14,11 +14,11 @@ Description: A representation of a real-world supervisor. Will be assigned to em
 
 ## Association
 Relationship: One-to-many
-Explanation:
+Explanation: A single supervisor can oversee multiple employees. Each employee can have only one supervisor.
 
 ## Multiplicity
 Multiplicity: One or more objects can participate in the relationship.
-Explanation:
+Explanation: One supervisor can be linked to one or more employee objects via a list.
 
 ## UML Class Relationship Diagram
 ![Class Relationship Diagram](images/classRelationshipDiagram.png)
@@ -31,12 +31,12 @@ Explanation:
 
 ## Analysis
 ### What is the association between your two classes?
-- A superviser has (or can have) multiple employees to supervise.
+- A supervisor has (or can have) multiple employees to supervise.
 ### What multiplicity did you choose and why?
 - I chose a multiplicity of one or more and a relationship of one-to-many. I wanted my supervisor class to be able to be assigned to multiple employees. However, I only want each employee to have only one supervisor.
 ### How did you implement the relationship in Python?
 - I allowed each supervisor to have multiple employee classes to "supervise".
 ### Why did you store an object reference instead of copying its data?
-- 
+- It allows the system to have only one source. If ever any information regarding the supervisor changes, all employee classes are affected accordingly as well, without having to synchronize multiple duplicate data fields.
 ### If your relationship uses many, why is a list appropriate?
-- 
+- A list is appropriate because a supervisor manages a group of multiple employee objects. When using a list, adding, removing, or iterating through the employee list is easy.
