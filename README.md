@@ -8,3 +8,7 @@ Grade and Section: 9 Silicon
 [Study Guide 9 - Inheritance FA 1](quarter2/librarymanagement.py)
 
 [Study Guide 10 - Method Overriding](quarter2/zoomanagement.py)
+
+[Study Guide 11 - Polymorphism](quarter2/hospitalbillingsystem.py)
+
+[Study Guide 11 - Duck Typing](quarter2/ducktyping.py)
